@@ -1,0 +1,51 @@
+
+table {
+    width: 50%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    text-align: left;
+}
+
+thead th {
+    background-color: #2F80ED;
+    color: white;
+    padding: 10px;
+    border: 1px solid #c4dcf3 ;
+}
+
+td {
+    padding: 10px;
+    border: 1px solid #c4dcf3;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #eef7ff;
+    border: 1px solid #c4dcf3 ;
+}#c4dcf3
+
+tbody tr:hover {
+    background-color: #c4dcf3;
+}
+
+tfoot .total-row {
+    background-color: #427fef;
+    font-weight: bold;
+    color: white;
+    text-align: left;
+}
+
+tfoot .total-amount {
+    text-align: left;
+}
+/* .total-row td{
+    text-align: left;
+} */
+
+.box{
+    width: 300px;
+    height: 300px;
+    background-color: tomato;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    box-shadow: 13px 13px lightgrey;
+}
