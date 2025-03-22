@@ -1,0 +1,38 @@
+
+body{
+    margin: 0 !important;
+}
+.main {
+    background-image: url(space.jpeg);
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main h1{
+    color: white;
+    font-family: "Poppins";
+    font-weight: 900;
+    font-size: 55px !important;
+}
+.main div p{
+    color: white;
+    font-weight: 300;
+    font-family: "Poppins";
+    font-size: 17px !important;
+}
+.main div{
+    height: 37px;
+    width: 170px;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
